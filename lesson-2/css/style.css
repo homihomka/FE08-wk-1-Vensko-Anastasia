@@ -1,6 +1,6 @@
-@import "awesome.css";
-@import "title.css";
-@import "card.css";
+@import "blocks/awesome.css";
+@import "blocks/title.css";
+@import "blocks/card.css";
 
 html {
     box-sizing: border-box;
