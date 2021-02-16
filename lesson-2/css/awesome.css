@@ -1,0 +1,21 @@
+.awesome {
+    padding-bottom: 90px;
+    padding-top: 100px;
+}
+
+.awesome__header {
+    margin-bottom: 36px;
+}
+
+.awesome__title {
+    margin-bottom: 57px;
+}
+
+.awesome__subtitle {
+    text-align: center;
+    color: #86878B;
+}
+
+.awesome__benefits {
+    display: flex;
+}

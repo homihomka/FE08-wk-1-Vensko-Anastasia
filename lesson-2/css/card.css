@@ -1,0 +1,20 @@
+.card {
+    text-align: center;
+    padding: 31px 16px 20px 16px;
+}
+
+.card__icon {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #D98943;
+    width: 70px;
+    height: 70px;
+}
+
+.card__icon-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

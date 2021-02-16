@@ -1,0 +1,18 @@
+.title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #D98943;
+    display: block;
+    margin: 25px auto 0;
+ }
+
