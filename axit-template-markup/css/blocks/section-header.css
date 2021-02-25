@@ -12,6 +12,10 @@
     text-transform: uppercase;
 }
 
+.section-header__title--white {
+    color: #fff;
+}
+
 .section-header__title::after {
     content: "";
     width: 64px;
@@ -21,7 +25,16 @@
     margin: 25px auto 0;
 }
 
+.section-header__title--white::after {
+    background-color: #fff;
+}
+
 .section-header__description {
     text-align: center;
     color: #86878B;
+}
+
+.section-header__description--light {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
 }

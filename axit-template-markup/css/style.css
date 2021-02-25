@@ -5,6 +5,8 @@
 @import "blocks/pricing-card.css";
 @import "blocks/feedback.css";
 @import "blocks/review.css";
+@import "blocks/download.css";
+@import "blocks/btn.css";
 
 html {
     box-sizing: border-box;
@@ -40,4 +42,6 @@ ul {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+    z-index: 1;
+    position: relative;
 }
