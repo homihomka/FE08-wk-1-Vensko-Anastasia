@@ -10,6 +10,8 @@
 @import "blocks/social.css";
 @import "blocks/footer.css";
 @import "blocks/media.css";
+@import "blocks/nav.css";
+@import "blocks/logo.css";
 
 html {
     box-sizing: border-box;
