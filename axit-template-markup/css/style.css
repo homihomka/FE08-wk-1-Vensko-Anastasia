@@ -7,6 +7,8 @@
 @import "blocks/review.css";
 @import "blocks/download.css";
 @import "blocks/btn.css";
+@import "blocks/social.css";
+@import "blocks/footer.css";
 
 html {
     box-sizing: border-box;
@@ -38,6 +40,10 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -45,3 +51,4 @@ ul {
     z-index: 1;
     position: relative;
 }
+
