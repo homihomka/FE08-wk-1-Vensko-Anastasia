@@ -1,0 +1,53 @@
+.pricing-card {
+    text-align: center;
+    width: 340px;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card__title {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.pricing-card__price {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.pricing-card__note {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.pricing-card__note--orange {
+    background-color: #D98943;
+}
+
+.pricing-card__benefit {
+    margin-top: 4px;
+    background-color: #fff;
+    color: #86878B;
+    padding: 15px;
+}
+

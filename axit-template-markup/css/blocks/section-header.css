@@ -1,0 +1,27 @@
+.section-header {
+    margin-bottom: 36px;
+}
+
+.section-header__title {
+    margin-bottom: 34px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-header__title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #D98943;
+    display: block;
+    margin: 25px auto 0;
+}
+
+.section-header__description {
+    text-align: center;
+    color: #86878B;
+}

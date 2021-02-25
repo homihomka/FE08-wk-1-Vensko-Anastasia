@@ -1,6 +1,8 @@
 @import "blocks/awesome.css";
-@import "blocks/title.css";
 @import "blocks/card.css";
+@import "blocks/section-header.css";
+@import "blocks/pricing.css";
+@import "blocks/pricing-card.css";
 
 html {
     box-sizing: border-box;
@@ -20,6 +22,16 @@ body {
     font-weight: 400;
     color: #000;
     background-color: #fff;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container {

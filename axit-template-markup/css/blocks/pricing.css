@@ -1,0 +1,14 @@
+.pricing {
+    background-color: #F5F5F5;
+    padding-bottom: 58px;
+    padding-top: 80px;
+}
+
+.pricing__header {
+    margin-bottom: 62px;
+}
+
+.pricing__offers {
+    display: flex;
+    justify-content: space-between;
+}
