@@ -1,0 +1,9 @@
+.feedback {
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+
+.feedback__reviews {
+    display: flex;
+    justify-content: space-between;
+}

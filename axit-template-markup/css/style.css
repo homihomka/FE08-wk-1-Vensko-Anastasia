@@ -3,6 +3,8 @@
 @import "blocks/section-header.css";
 @import "blocks/pricing.css";
 @import "blocks/pricing-card.css";
+@import "blocks/feedback.css";
+@import "blocks/review.css";
 
 html {
     box-sizing: border-box;
