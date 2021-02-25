@@ -1,0 +1,32 @@
+.media {
+    background-color: #F8EFEF;
+    padding-top: 14px;
+    padding-bottom: 17px;
+}
+
+.media__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media__content {
+    max-width: 365px;
+}
+
+.media__title {
+    color: #333333;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.media__note {
+    margin: 0;
+    color: #86878B;
+}
+
+.media__social {
+    margin-right: -20px;
+}

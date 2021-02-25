@@ -4,6 +4,20 @@
     flex-wrap: wrap;
 }
 
+.social--large .social__icon {
+    font-size: 42px;
+}
+
+.social--large .social__icon:hover,
+.social--large .social__icon:focus {
+    transform: scale(1.2);
+}
+
+.social--large .social__item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .social__item {
     margin-right: 15px;
     margin-left: 15px;
