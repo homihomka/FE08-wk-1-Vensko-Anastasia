@@ -12,6 +12,8 @@
 @import "blocks/media.css";
 @import "blocks/nav.css";
 @import "blocks/logo.css";
+@import "blocks/contact.css";
+@import "blocks/input.css";
 
 html {
     box-sizing: border-box;

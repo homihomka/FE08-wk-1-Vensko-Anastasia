@@ -1,0 +1,19 @@
+.input__label {
+    color: #BDBDBD;
+}
+
+.input__field {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input__textarea {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    display: block;
+    resize: none;
+    width: 100%;
+}

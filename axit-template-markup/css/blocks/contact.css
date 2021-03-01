@@ -1,0 +1,40 @@
+.contact {
+    padding-top: 80px;
+    padding-bottom: 44px;
+}
+
+.contact__form {
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 68px;
+}
+
+.contact__user-massage-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 110px;
+}
+
+.contact__user-data-container {
+    flex-grow: 1;
+    margin-right: 110px;
+}
+
+.contact__input {
+    margin-bottom: 31px;
+}
+
+.contact__input:last-child {
+    margin-bottom: 0;
+}
+
+.contact__textarea-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.contact__textarea {
+    flex-grow: 1;
+}
