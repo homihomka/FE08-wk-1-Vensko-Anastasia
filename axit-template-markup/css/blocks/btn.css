@@ -1,5 +1,7 @@
 .btn {
     display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
     padding: 11px 26px;
@@ -16,4 +18,15 @@
 
 .btn:active {
     opacity: 0.8;
+}
+
+.btn--pink {
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+}
+
+.btn--pink:hover,
+.btn--pink:focus {
+    background-color: #b83f3f;
+    color: #000;
 }

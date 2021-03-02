@@ -6,4 +6,5 @@
 .feedback__reviews {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

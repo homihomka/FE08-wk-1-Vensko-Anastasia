@@ -6,7 +6,7 @@
 .contact__form {
     display: flex;
     margin-top: 90px;
-    margin-bottom: 68px;
+    flex-wrap: wrap;
 }
 
 .contact__user-massage-container {
@@ -37,4 +37,11 @@
 
 .contact__textarea {
     flex-grow: 1;
+}
+
+.contact__btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
 }
