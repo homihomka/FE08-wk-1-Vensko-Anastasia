@@ -1,5 +1,14 @@
 .section-header {
     margin-bottom: 36px;
+    text-align: center;
+}
+
+.section-header--align-left {
+    text-align: left;
+}
+
+.section-header--align-left .section-header__title::after {
+    margin-left: 0;
 }
 
 .section-header__title {
@@ -8,7 +17,6 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -25,12 +33,15 @@
     margin: 25px auto 0;
 }
 
+.section-header__title--thin-decor::after {
+    height: 1px;
+}
+
 .section-header__title--white::after {
     background-color: #fff;
 }
 
 .section-header__description {
-    text-align: center;
     color: #86878B;
 }
 
@@ -38,3 +49,4 @@
     color: rgba(255, 255, 255, 0.8);
     font-weight: 300;
 }
+

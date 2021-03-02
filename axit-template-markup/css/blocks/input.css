@@ -17,3 +17,7 @@
     resize: none;
     width: 100%;
 }
+
+.input__field--small {
+    margin-top: 5px;
+}

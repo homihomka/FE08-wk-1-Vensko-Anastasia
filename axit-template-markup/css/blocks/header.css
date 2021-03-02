@@ -1,0 +1,64 @@
+.header {
+    background-image: url("../../img/new-york.jpg");
+    padding-top: 110px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.header__title {
+    max-width: 544px;
+}
+
+.header__description {
+    max-width: 256px;
+    font-size: 16px;
+}
+
+.header__form-container {
+    width: 370px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.header__form {
+    padding-left: 59px;
+    padding-right: 59px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.header__form-title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.header__input {
+    margin-bottom: 22px;
+}
+
+.header__form-title-accent {
+    text-transform: uppercase;
+    color: #EC7979;
+}

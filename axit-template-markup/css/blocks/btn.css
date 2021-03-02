@@ -30,3 +30,15 @@
     background-color: #b83f3f;
     color: #000;
 }
+
+.btn--full-width {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.btn--unbordered {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}

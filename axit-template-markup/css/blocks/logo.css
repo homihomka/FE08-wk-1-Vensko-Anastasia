@@ -9,3 +9,8 @@
 .logo__accent {
     color: #EC7979;
 }
+
+.logo--large {
+    font-size: 60px;
+    line-height: 70px;
+}
