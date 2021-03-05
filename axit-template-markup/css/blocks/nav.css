@@ -30,7 +30,7 @@
     font-size: 15px;
     line-height: 20px;
     transition: color 0.3s ease,
-                opacity 0.3s ease;
+    opacity 0.3s ease;
 }
 
 .nav__link::after {
@@ -56,4 +56,66 @@
 
 .nav__link:active {
     opacity: 0.8;
+}
+
+.nav__menu-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    height: 36px;
+    width: 45px;
+    padding: 5px;
+}
+
+.nav__toggle-hamburger {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}
+
+.nav__toggle-hamburger::before,
+.nav__toggle-hamburger::after {
+    content: "";
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.nav__toggle-hamburger::before {
+    top: -10px;
+}
+
+.nav__toggle-hamburger::after {
+    bottom: -10px;
+}
+
+.nav__toggle-hamburger--cross {
+    background-color: transparent;
+}
+
+.nav__toggle-hamburger--cross::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.nav__toggle-hamburger--cross::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__list--show {
+        display: flex;
+    }
+
+    .nav__menu-toggle {
+        display: block;
+    }
 }
