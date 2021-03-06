@@ -18,9 +18,24 @@
     margin-left: 20px;
 }
 
+.social--large .social__item:first-child {
+    margin-left: 0;
+}
+
+.social--large .social__item:last-child {
+    margin-right: 0;
+}
+
 .social__item {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 7px 14px;
+}
+
+.social__item:first-child {
+    margin-left: 0;
+}
+
+.social__item:last-child {
+    margin-right: 0;
 }
 
 .social__icon {

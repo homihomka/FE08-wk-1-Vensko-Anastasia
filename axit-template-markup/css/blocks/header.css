@@ -62,3 +62,18 @@
     text-transform: uppercase;
     color: #EC7979;
 }
+
+@media (max-width: 991px) {
+    .header__container {
+        flex-direction: column;
+    }
+
+    .header__promo {
+        margin-bottom: 40px;
+    }
+
+    .header__form-container {
+        width: 100%;
+        max-width: 370px;
+    }
+}

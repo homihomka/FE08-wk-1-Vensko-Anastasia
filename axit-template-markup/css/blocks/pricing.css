@@ -12,3 +12,24 @@
     display: flex;
     justify-content: space-between;
 }
+
+.pricing__offer {
+    width: 340px;
+    margin-right: 20px;
+}
+
+.pricing__offer:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .pricing__offers {
+        flex-direction: column;
+    }
+
+    .pricing__offer {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

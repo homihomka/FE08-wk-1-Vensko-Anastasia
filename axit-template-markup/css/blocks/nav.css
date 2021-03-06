@@ -107,15 +107,33 @@
 }
 
 @media (max-width: 768px) {
-    .nav__list {
-        display: none;
-    }
-
-    .nav__list--show {
-        display: flex;
+    .nav__container {
+        z-index: 2;
     }
 
     .nav__menu-toggle {
+        display: block;
+    }
+
+    .nav__list {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(100% + 19px);
+        background-color: #000;
+    }
+
+    .nav__list--show {
+        display: block;
+    }
+
+    .nav__item {
+        margin-right: 0;
+    }
+
+    .nav__link {
+        padding: 15px;
         display: block;
     }
 }

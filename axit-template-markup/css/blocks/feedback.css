@@ -8,3 +8,22 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.feedback__review {
+    width: 298px;
+}
+
+@media (max-width: 991px) {
+    .feedback__reviews {
+        flex-direction: column;
+    }
+
+    .feedback__review {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .feedback__review:last-child {
+        margin-bottom: 0;
+    }
+}

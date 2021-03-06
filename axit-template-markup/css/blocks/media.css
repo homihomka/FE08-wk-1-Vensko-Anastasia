@@ -27,6 +27,13 @@
     color: #86878B;
 }
 
-.media__social {
-    margin-right: -20px;
+@media (max-width: 991px) {
+    .media__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .media__content {
+        margin-bottom: 20px;
+    }
 }

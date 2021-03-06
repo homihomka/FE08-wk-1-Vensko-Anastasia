@@ -1,8 +1,9 @@
+@import "scaffolding.css";
 @import "blocks/awesome.css";
 @import "blocks/card.css";
 @import "blocks/section-header.css";
-@import "blocks/pricing.css";
 @import "blocks/pricing-card.css";
+@import "blocks/pricing.css";
 @import "blocks/feedback.css";
 @import "blocks/review.css";
 @import "blocks/download.css";
@@ -17,46 +18,3 @@
 @import "blocks/header.css";
 @import "blocks/tabs.css";
 @import "blocks/promo.css";
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body {
-    min-width: 320px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 19px;
-    font-weight: 400;
-    color: #000;
-    background-color: #fff;
-}
-
-h2 {
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-    z-index: 1;
-    position: relative;
-}
-

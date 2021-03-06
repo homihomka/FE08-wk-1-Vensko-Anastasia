@@ -45,3 +45,32 @@
     justify-content: center;
     margin-top: 68px;
 }
+
+@media (max-width: 991px) {
+    .contact__user-massage-container {
+        margin-left: 55px;
+    }
+
+    .contact__user-data-container {
+        margin-right: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact__form {
+        flex-direction: column;
+    }
+
+    .contact__user-massage-container {
+        margin-left: 0;
+    }
+
+    .contact__user-data-container {
+        margin-right: 0;
+        margin-bottom: 31px;
+    }
+
+    .contact__textarea {
+        height: 250px;
+    }
+}
